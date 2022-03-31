@@ -36,3 +36,10 @@ Wir legen mal ein Bitbucket repo an und pushen unser lokales Repo dorthin (open 
 git remote add origin git@github.com:prumand/testing.git
 git push -u origin main
 ```
+
+# Was wollt ihr noch hören?
+
+1. Grundkonzepte git: Workspace, Stage, Head, Commit, History
+1. Branching: local Branches, PRs, pull und "Bitte nicht branchen!!!"
+1. Automatisierung: Lokal, Zentral, basierend auf Git-Events, vs. Repomanager-Events
+1. Rewrite History: Aktuelle commits bearbeiten, force pushes und git rebase
