@@ -23,3 +23,16 @@ git commit
 # Tipp mit -v|--verbose sieht man die Changes
 git commit -v
 ```
+
+# Was ist dann GitHub, GitLab, Bitbucket?
+
+Will man mit mehreren Leuten arbeiten, könnte man sich einfach einen Server mit ssh Zugang aufsetzen. Dann kann jeder mit Zugang Änderungen pushen, bzw. pullen.
+
+Github, GitLab und Bitbucket sind Repomanager die das Anlegen, die Rechteverwaltung, Kommunikation, ... zusätzlich anbieten. Wenn man von einem Repomanager pull kriegt man aber ein einfaches git-repo, wie man das local angelegt hat.
+Wir legen mal ein Bitbucket repo an und pushen unser lokales Repo dorthin (open bitbucket)
+
+```
+# git@github != git protocol
+git remote add origin git@github.com:prumand/testing.git
+git push -u origin main
+```
