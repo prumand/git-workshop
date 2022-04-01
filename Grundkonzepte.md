@@ -23,3 +23,13 @@ git commit
 # man commited
 git commit --verbose
 ```
+
+## HEAD
+
+Das ist der aktuelle Stand, des commited REPOS.
+
+```
+git diff
+# ist das gleiche wie
+git diff HEAD
+```
