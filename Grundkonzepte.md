@@ -33,3 +33,19 @@ git diff
 # ist das gleiche wie
 git diff HEAD
 ```
+
+## Commits & History
+
+Jede Aenderungen generiert einen Commit und man kann sich diese auch in der History anschauen. Bzw. Unterschiede zwischen zwei Commits anschauen.
+
+```
+git log
+# mit Aenderungen
+git log -p
+# Aenderungen eines spezifischen Commits
+git diff 533e5a5
+# Aenderunge mehrer Commits
+git diff 533e5a5 f517144
+```
+
+# Git push und
