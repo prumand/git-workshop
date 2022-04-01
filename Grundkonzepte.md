@@ -51,4 +51,4 @@ git diff 533e5a5 f517144
 # Git push, bzw. pull und fetch
 
 Wir haben ja die Moeglichkeit auf ein neues Repos zu pushen. Was wir bei git status sehen, ist allerdings nur der letzte Stand den wir uns geholt haben. Dh wenn wir remote Aenderungen machen, sehen wir die erst im `git status`, wenn wir auch ein `git fetch` machen.
-
+Erst wenn wir pullen, holen wir uns die neuen Aenderungen.
