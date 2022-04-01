@@ -39,7 +39,7 @@ git push -u origin main
 
 # Was wollt ihr noch hören?
 
-1. [Grundkonzepte git: Workspace, Stage, Head, Commit, History](./Grundkonzepte.md)
+1. [Grundkonzepte git: Workspace, Stage, Head, Commit, History, Remote](./Grundkonzepte.md)
 1. Branching: local Branches, PRs, pull und "Bitte nicht branchen!!!"
 1. Automatisierung: Lokal, Zentral, basierend auf Git-Events, vs. Repomanager-Events
 1. Rewrite History: Aktuelle commits bearbeiten, force pushes und git rebase
