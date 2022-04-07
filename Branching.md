@@ -39,5 +39,7 @@ Aktuell sind all unsere Änderung noch lokal. Aber wir wollen ja auch unsere Än
 ```bash
 git push
 # Pro-Tip: Git gibt immer sehr gut Fehlermeldungen
+git push --set-upstream origin test-branch
 ```
 
+Jetzt können wir uns den branch auch im Repo-Manager ansehen.
