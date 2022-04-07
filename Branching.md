@@ -15,7 +15,6 @@ git log
 Der neue branch ist jetzt genau auf dem selben Stand commit wie der master branch. Allerdings bleiben jetzt alle Änderungen in dem jeweiligen branch.
 
 ```bash
-touch test.txt
-git add .
-git commit -m "Neues test file"
+echo "Neue Infos für Branching" >> ./Branching.md
+git commit -m "Neue Infos"
 ```
