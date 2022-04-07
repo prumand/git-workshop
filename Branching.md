@@ -31,3 +31,13 @@ git checkout test-branch
 git merge main
 git log
 ```
+
+## Lokale branches vs. Remote branches
+
+Aktuell sind all unsere Änderung noch lokal. Aber wir wollen ja auch unsere Änderungen vom branch mit anderen teilen. Das können wir mit ein `push` bewerkstelligen.
+
+```bash
+git push
+# Pro-Tip: Git gibt immer sehr gut Fehlermeldungen
+```
+
