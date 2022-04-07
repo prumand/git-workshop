@@ -17,4 +17,6 @@ Der neue branch ist jetzt genau auf dem selben Stand commit wie der master branc
 ```bash
 echo "Neue Infos für Branching" >> ./Branching.md
 git commit -m "Neue Infos"
+# zwischen den Branchen switchen
+gco -
 ```
