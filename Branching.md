@@ -26,5 +26,8 @@ gco -
 Wenn wir nun weiter arbeiten können wir natürlich auch die Änderungen auch wieder in den main branch holen.
 
 ```bash
-git merge test-branch
+git checkout test-branch
+# um abzubrechen einfach die commit message löschen
+git merge main
+git log
 ```
