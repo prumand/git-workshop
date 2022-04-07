@@ -20,3 +20,11 @@ git commit -m "Neue Infos"
 # zwischen den Branchen switchen
 gco -
 ```
+
+## Mergen von Branchen
+
+Wenn wir nun weiter arbeiten können wir natürlich auch die Änderungen auch wieder in den main branch holen.
+
+```bash
+git merge test-branch
+```
