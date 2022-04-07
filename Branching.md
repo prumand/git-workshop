@@ -43,3 +43,11 @@ git push --set-upstream origin test-branch
 ```
 
 Jetzt können wir uns den branch auch im Repo-Manager ansehen.
+
+## Pull Request
+
+Jetzt können wir im Repo-Manager einen PR erstellen. Dort können wir die Änderungen mit KollegInnen besprechen.
+
+## Merge Konflikte
+
+Wenn wir und eine Kolleging von uns die obige Überschrift ändern. Haben wir Mergekonflikte.
